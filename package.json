@@ -1,5 +1,5 @@
 {
-  "name": "timesync",
+  "name": "@catalyst-edu-llc/timesync",
   "version": "1.0.5",
   "description": "Time synchronization between peers",
   "author": "Jos de Jong <wjosdejong@gmail.com> (https://github.com/josdejong)",
@@ -15,7 +15,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/enmasseio/timesync.git"
+    "url": "https://github.com/catalyst-edu-llc/timesync.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
     "debug": "3.1.0"
